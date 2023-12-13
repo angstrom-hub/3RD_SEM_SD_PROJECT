@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University-About</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c2cc11dfc2.js"></script>
+    <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+
+            
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="images/photo_42_2023-12-13_11-49-32-removebg-preview.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="alumni.html">ALUMNI</a></li>
+                    <li><a href="faculty.html">FACULTY</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!-- About us content-->
+<section class="about-us">
+    <div class="row">
+        <div class="abt-col">
+            <h1>Welcome To International Islamic University Chittagong</h1>
+            <p>International Islamic University Chittagong (IIUC) is one of the top graded Government approved private universities in Bangladesh. 
+                At present, it is the largest private university with 430 (Full time: 317 & Adjunct: 113) teachers and 12000 students from home and abroad. A good number of full-time teachers and students are studying abroad for pursuing higher studies with IIUC’s scholarship or financial assistance or continuation of services.
+            </p>
+            <a href="https://www.iiuc.ac.bd/" target=_blank class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="abt-col">
+            <img src="images/about.jpg" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+
+<!---Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This Website was made so that we could connect with as many people as possible.</p>
+    <div class="social">
+       
+           <!-- Facebook Icon -->
+       <div class="icon fb">
+           <a
+               href="https://m.facebook.com/amjadhossain.evan2002/"
+               target="_blank"
+               rel="noreferrer">
+           <i class="fa-brands fa-facebook-f"></i>
+           <span>Facebook</span>
+           </a>
+       </div>
+
+       <!-- Twitter Icon -->
+       <div class="icon twt">
+           <a
+               href="https://twitter.com/Angstrom2002"
+               target="_blank"
+               rel="noreferrer">
+           <i class="fa-brands fa-twitter"></i>
+           <span>Twitter</span>
+       </a>
+       </div>
+           <div class="icon ins">
+               <a
+               href="https://www.instagram.com/amjad_hossain_evan/"
+               target="_blank"
+               rel="noreferrer"
+               ><i class="fa fa-instagram" ></i>
+               <span>instagram</span>
+           </a>
+           </div>
+           <!-- Linkedin Icon -->
+       <div class="icon lnk">
+           <a
+               href="https://bd.linkedin.com/in/amjad-hossain-evan-280316286"
+               target="_blank"
+               rel="noreferrer">
+           <i class="fa-brands fa-linkedin-in"></i>
+           <span>Linkedin</span>
+           </a>
+       </div>
+
+       <!-- GitHub Icon -->
+       <div class="icon git">
+           <a
+               href="https://github.com/angstrom-hub"
+               target="_blank"
+               rel="noreferrer">
+           <i class="fa-brands fa-github"></i>
+           <span>GitHub</span>
+           </a>
+       </div>
+   </div>
+    <p>Made By 
+       <a
+       href="https://github.com/angstrom-hub"
+       target="_blank"
+       rel="noreferrer"
+       ><i class="fa-brands fa-github">EVAN</i
+   ></a>
+    </p>
+    </section>
+<!--- javascript code from here---> 
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showMenu()
+        {
+            navlinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navlinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
